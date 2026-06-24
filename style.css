@@ -242,6 +242,11 @@ button {
   color: var(--muted);
 }
 
+.btn-malt {
+  background: linear-gradient(90deg, #ff7a59 0%, #ffb199 100%);
+  color: #fff;
+}
+
 .profile-card {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -280,6 +285,28 @@ button {
   padding: 0.65rem 1rem;
   border-radius: 999px;
   font-size: 0.9rem;
+}
+
+.social-links a#maltProfile {
+  background: linear-gradient(90deg, #ff7a59 0%, #ffb199 100%);
+  color: #fff;
+}
+
+.malt-rate {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1.1rem;
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  font-size: 0.95rem;
+}
+
+.malt-rate #maltRate {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #ff7a59;
 }
 
 .skills-grid,
