@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ghallous6.github.io/portfoliohaytam/sitemap.xml
